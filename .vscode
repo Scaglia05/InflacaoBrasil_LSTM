@@ -1,0 +1,10 @@
+{
+    "python.analysis.extraPaths": [
+        "C:/Users/guisc/AppData/Local/Programs/Python/Python311/Lib/site-packages"
+    ],
+    "python.analysis.stubPath": "./typings",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none"
+    }
+}
+
