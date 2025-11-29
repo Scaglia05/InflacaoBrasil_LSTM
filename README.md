@@ -17,7 +17,7 @@ Este repositório contém o código e os dados para previsão do **Índice de Pr
 
 ## 🔹 Artigo Completo
 
-O artigo detalhado deste estudo, contendo metodologia, resultados e discussões, está disponível em PDF. Para incluí-lo no repositório, coloque o arquivo em `docs/`:
+O artigo detalhado deste estudo, contendo metodologia, resultados e discussões, está disponível em PDF.
 
 ```
 IPCA-LSTM-GA/
