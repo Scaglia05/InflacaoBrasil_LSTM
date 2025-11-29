@@ -133,9 +133,5 @@ Todos os scripts são versionados e configurados com parâmetros fixos (random_s
 * GPU compatível para treinamento acelerado
 
 ---
-![Inflação Animada 1](https://img.lottiefiles.com/animation/14437106/inflation-causing-price-rising-up.gif)  
-![Inflação Animada 2](https://img.lottiefiles.com/animation/11517496/money-inflation.gif)  
-![Inflação Animada 3](https://cdn.pixabay.com/animation/2023/09/14/14/54/economia-crescimento-gráfico-8064.gif)  
-
 
 
