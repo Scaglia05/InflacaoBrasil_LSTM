@@ -54,28 +54,45 @@ A metodologia inclui:
 ## 🔹 Estrutura do Repositório
 
 ```
-IPCA-LSTM-GA/
+InflacaoBrasil_LSTM/
 │
-├─ data/
-│   ├─ ipca.csv
-│   ├─ macro_vars.csv
-│
-├─ src/
-│   ├─ preprocessing.py
-│   ├─ model_lstm.py
-│   ├─ genetic_optimizer.py
-│   ├─ evaluation.py
-│   ├─ visualization.py
-│
-├─ notebooks/
-│   ├─ exploratory_analysis.ipynb
-│   ├─ model_training.ipynb
+├─ Dados/
+│   ├─ LSTM/
+│   │   ├─ lstm_historico_previsao.png
+│   │   └─ lstm_real_vs_previsto.png
+│   │
+│   ├─ RandomForest/
+│   │   ├─ ipca_historico_previsao.png
+│   │   └─ randomforest_real_vs_previsto.png
+│   │
+│   └─ RegressaoLinear/
+│       ├─ ipca_previsao_reg_linear.png
+│       └─ reglinear_real_vs_previsto.png
 │
 ├─ docs/
 │   └─ Previsao_da_Inflacao_Brasileira_utilizando_Machine_Learning.pdf
 │
-├─ requirements.txt
-└─ README.md
+├─ __pycache__/
+│   ├─ AvaliarModelo.cpython-311.pyc
+│   ├─ PrevisaoFinal.cpython-311.pyc
+│   └─ modelos.cpython-311.pyc
+│
+├─ data/
+│   ├─ comparacao_modelo.csv
+│   ├─ ipca_continuo.csv
+│   └─ ipca_previsao_ml.csv
+│
+├─ .vscode/
+│
+├─ AvaliarModelo.py
+├─ BaixarIPCA.py
+├─ PrevisaoFinal.py
+├─ README.md
+├─ exploracao.py
+├─ inflacao_base.py
+├─ main.py
+├─ modelos.py
+└─ preprocessamento.py
 ```
 
 ---
