@@ -75,19 +75,27 @@ IPCA-LSTM-GA/
 
 ## 🔹 Instalação e Uso
 
-Siga os passos descritos anteriormente para clonar, criar ambiente virtual, instalar dependências e executar os scripts de pré-processamento, treino, otimização, avaliação e visualização.
+Clone o repositório, configure um ambiente virtual e instale todas as dependências para garantir execução isolada e sem conflitos. O pipeline modular inclui: pré-processamento de dados, treinamento da LSTM, otimização via Algoritmos Genéticos, avaliação de métricas e visualização de resultados. Os notebooks oferecem execução interativa e exploração detalhada das séries temporais e dos modelos.
+
+```bash
+git clone https://github.com/Scaglia05/InflacaoBrasil_LSTM.git
+cd InflacaoBrasil_LSTM
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+pip install -r requirements.txt
+```
+
 
 ---
 
 ## 🔹 Resultados e Contribuições
-
-Produz previsões mensais do IPCA fora da amostra, métricas (RMSE, MAE, R²) e gráficos de análise. Sugestões e melhorias podem ser enviadas via **issues** ou **pull requests**.
+O projeto gera previsões mensais do IPCA fora da amostra, métricas de desempenho confiáveis (RMSE, MAE, R²) e gráficos comparativos entre valores reais e previstos. Contribuições externas são bem-vindas: reporte problemas ou sugira melhorias via issues ou pull requests, ajudando a aprimorar a confiabilidade e replicabilidade do repositório.
 
 ---
 
 ## 🔹 Reprodutibilidade
-
-Scripts versionados, parâmetros fixos (`random_state=42`), garantindo resultados consistentes.
+Todos os scripts são versionados e configurados com parâmetros fixos (random_state=42), garantindo que execuções repetidas produzam resultados idênticos. Isso assegura consistência, validação confiável e possibilidade de comparações robustas entre diferentes ajustes de hiperparâmetros ou modelos.
 
 ---
 
