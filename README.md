@@ -20,7 +20,7 @@ IPCA-LSTM-GA/
 
 Link para acessar ou baixar o PDF:
 
-[📄 Baixar/Visualizar Artigo](docs/Previsao_da_Inflacao_Brasileira_utilizando_Machine_Learning.pdf)
+[📄 Baixar/Visualizar Artigo](Docs/Previsao_da_Inflacao_Brasileira_utilizando_Machine_Learning.pdf)
 
 > Observação: o PDF também pode ser visualizado inline em navegadores que suportam embed de PDF, mas o link de download é a forma mais confiável.
 
