@@ -134,4 +134,5 @@ Todos os scripts são versionados e configurados com parâmetros fixos (random_s
 
 ---
 
+![Inflação](Gifs/Machine.gif)
 
