@@ -2,7 +2,14 @@
 
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![TensorFlow](https://img.shields.io/badge/tensorflow-2.16-orange)
+![DEAP](https://img.shields.io/badge/DEAP-1.3-lightgrey)
+![Pandas](https://img.shields.io/badge/pandas-1.6-blue)
+![NumPy](https://img.shields.io/badge/numpy-1.27-lightblue)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-1.3-green)
+![Matplotlib](https://img.shields.io/badge/matplotlib-3.8-orange)
+![Statsmodels](https://img.shields.io/badge/statsmodels-0.17-purple)
 ![Status](https://img.shields.io/badge/status-completo-brightgreen)
+
 
 Este repositório contém o código e os dados para previsão do **Índice de Preços ao Consumidor Amplo (IPCA)** utilizando **Redes Neurais Recorrentes (LSTM)** combinadas com **Algoritmos Genéticos (GA)** para otimização de hiperparâmetros e seleção de variáveis. O projeto permite simular cenários futuros de inflação brasileira e avaliar a performance de modelos de séries temporais.
 
