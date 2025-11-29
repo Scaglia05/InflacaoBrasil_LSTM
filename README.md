@@ -131,3 +131,77 @@ Todos os scripts são versionados e configurados com parâmetros fixos (random_s
 * DEAP (Algoritmos Genéticos)
 * Matplotlib, Seaborn
 * GPU compatível para treinamento acelerado
+
+---
+
+<div align="center">
+<svg width="520" height="160" viewBox="0 0 520 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <polyline
+    id="line"
+    fill="none"
+    stroke="#00e676"
+    stroke-width="4"
+    filter="url(#glow)"
+    points="0,120 100,110 200,105 300,115 400,100 500,90">
+    <animate attributeName="points" dur="4s" repeatCount="indefinite"
+      values="
+      0,120 100,115 200,110 300,130 400,125 500,140;
+      0,120 100,95  200,80  300,90  400,70  500,60;
+      0,120 100,110 200,105 300,115 400,100 500,90"
+    />
+  </polyline>
+
+  <text x="0" y="150" font-size="14" fill="#444">Tendência IPCA — Modo Futurista</text>
+</svg>
+</div>
+
+<div align="center">
+<svg width="520" height="160" xmlns="http://www.w3.org/2000/svg">
+  <rect x="20"  y="140" width="40" height="0" fill="#ff9800">
+    <animate attributeName="height" from="0" to="80" dur="1s" fill="freeze"/>
+    <animate attributeName="y" from="140" to="60" dur="1s" fill="freeze"/>
+  </rect>
+
+  <rect x="90" y="140" width="40" height="0" fill="#ff9800">
+    <animate attributeName="height" from="0" to="100" dur="1.5s" fill="freeze"/>
+    <animate attributeName="y" from="140" to="40" dur="1.5s" fill="freeze"/>
+  </rect>
+
+  <rect x="160" y="140" width="40" height="0" fill="#ff9800">
+    <animate attributeName="height" from="0" to="60" dur="2s" fill="freeze"/>
+    <animate attributeName="y" from="140" to="80" dur="2s" fill="freeze"/>
+  </rect>
+
+  <text x="0" y="155" font-size="14" fill="#444">Inflação Mensal (animação simulada)</text>
+</svg>
+</div>
+
+<div align="center">
+<svg width="520" height="150" xmlns="http://www.w3.org/2000/svg">
+  <polyline fill="none" stroke="#2979ff" stroke-width="3"
+    points="0,100 80,100 160,100 240,100 320,100 400,100 480,100">
+    <animate attributeName="points" dur="3s" repeatCount="indefinite"
+      values="
+      0,100 80,90 160,95 240,70 320,85 400,60 480,75;
+      0,100 80,110 160,80 240,95 320,70 400,90 480,65;
+      0,100 80,100 160,100 240,100 320,100 400,100 480,100"
+    />
+  </polyline>
+
+  <text x="0" y="145" font-size="14" fill="#444">Variação IPCA — Estilo Mercado</text>
+</svg>
+</div>
+
+
+
+
