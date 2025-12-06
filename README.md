@@ -134,4 +134,10 @@ Todos os scripts são versionados e configurados com parâmetros fixos (random_s
 
 ---
 
+<div align="center">
+  <img src="Gifs/Machine.gif" width="320">
+  <br>
+  <em>Machine Learning </em>
+</div>
+
 
